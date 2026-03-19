@@ -70,10 +70,10 @@ Click below to interact with the dashboard
 
 |**Metric**          |**Current** |**Post Automation**|
 |--------------------|------------|-------------------|
-|First Response Time |   10 min   |     <2min         |
-|SLA Breach Rate     |   71%      |     <25%          |
-|Repetitive Tickets  |   60%      |     <15%          |
-|Cost per Contact    |   High     |     Low           |
+|First Response Time |   10 min   |   <span style="color:green"> ↓ <2min </span> |
+|SLA Breach Rate     |   71%      |    <span style="color:green">↓ <25%  </span> |
+|Repetitive Tickets  |   60%      |   <span style="color:green"> ↓ <15%  </span> |
+|Cost per Contact    |   High     |   <span style="color:green"> ↓ Low   </span> |
 
 ## Business Impact 
 - Improved Guest Satisfaction: Reduced response times by automating high‑volume, repetitive inquiries—directly addressing the primary driver of CSAT decline.
