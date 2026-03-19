@@ -47,16 +47,33 @@ Specific Objectives:
 - Dashboard creation (baseline & pilot evaluation)
 - Pre/post automation measurement framework
 
- ---
- ## Project Image
- ![](./Images/dashboard_1.png)
- ![](./Images/dashbaord_2.png)
+## Project Image
+![](./Images/dashboard_1.png) 
+![](./Images/dashbaord_2.png)
 
- ---
- ## Interactive Dashboard
- Click below to interact with the dashboard
 
- [View Dashboard here](https://lookerstudio.google.com/s/kLsmTmB7qxY)
+## Interactive Dashboard
+Click below to interact with the dashboard
+
+[View Dashboard here](https://lookerstudio.google.com/s/kLsmTmB7qxY)
+
+## Dataset
+[Find the dataset here](./Dataset/)
+## Key Insights
+- Guest satisfaction is primarily driven by response time, with sharp CSAT decline beyond 60 minutes.
+- Over 70% of tickets breach SLAs due to peak‑hour congestion and non‑scalable staffing models.
+- ~60% of guest inquiries are repetitive and automation‑ready, consuming disproportionate support capacity.
+- Manual workflows and ticket transfers reduce first‑contact resolution to 67.82% and increase cost per contact.
+- Automation presents a clear path to improve speed, reliability, and scalability without linear cost growth.
+
+## Projected Operational Improvements Through Automation
+
+|**Metric**          |**Current** |**Post Automation**|
+|--------------------|------------|-------------------|
+|First Response Time |   10 min   |     <2min         |
+|SLA Breach Rate     |   71%      |     <25%          |
+|Repetitive Tickets  |   60%      |     <15%          |
+|Cost per Contact    |   High     |     Low           |
 
 ## Business Impact 
 - Improved Guest Satisfaction: Reduced response times by automating high‑volume, repetitive inquiries—directly addressing the primary driver of CSAT decline.
@@ -64,4 +81,10 @@ Specific Objectives:
 - Cost Efficiency: Automated ~60% of repetitive support requests, lowering cost per contact and reducing overtime dependency.
 - Higher Resolution Rates: Improved first‑contact resolution by minimizing ticket transfers and standardizing responses.
 - Scalable Operations: Enabled a support model that scales with demand without linear increases in headcount or cost.
+
+---
+## Tech Stack
+- Data Storage & Cleaning: Google Sheets
+- Analysis: Google Sheets formulas and pivot tables
+- Visualization & Reporting: Looker Studio
 
