@@ -1,12 +1,5 @@
 ## Hospitality Operations Intelligence Initiative – Highlighting Analytics For Operational Optimization
 ![](./Images/hospitality_pics.png)
-## Project Description
-
-This is a data‑driven analytics project focused on solving declining performance in guest support operations. Guest inquiry volumes were increasing faster than the existing support model could scale, resulting in long response times, high SLA breach rates, rising costs, and declining guest satisfaction.
-Through analysis of support tickets, response times, resolution rates, and inquiry patterns, the project identified that over 60% of guest requests were repetitive and automation‑ready. Peak‑hour demand and manual workflows were the primary drivers of inefficiency and service degradation.
-The project proposes an Intelligent Travel Concierge to automate routine inquiries, reduce response times, improve first‑contact resolution, and lower operational costs—transforming guest support into a scalable, analytics‑led operation that improves both customer experience and business efficiency.
-
----
 ## Project Overview
 GrandStay Hospitality Group operates over 8,000 properties across 130 countries, supporting guests across luxury, business, and extended‑stay segments. As guest expectations shifted toward always‑on, digital‑first service, the existing support model struggled to scale. Rising inquiry volumes, repetitive requests, peak‑hour SLA breaches, and inconsistent knowledge handling exposed structural inefficiencies in global guest operations.
 This project was designed to provide leadership with data‑backed clarity on whether automation could sustainably resolve these challenges.
@@ -14,29 +7,62 @@ Using enterprise operational data, the project establishes a baseline across tim
 The outcome is an analytics framework and executive dashboard that quantifies bottlenecks, models pre‑ and post‑automation impact, and enables leadership to confidently evaluate the ROI of deploying an Intelligent Travel Concierge—grounding automation decisions in measurable KPIs, cost savings, and scalability projections.
 
 ---
-## Rationale for the Project
-Leadership requires objective, defensible evidence before investing in AI-driven automation. The initiative was launched to:
+## Business Problem
 
-- Validate the existence and magnitude of operational bottlenecks
-
-- Establish pre-automation baselines
-
-- Quantify financial impact of inefficiencies
-
-- Define measurable success metrics for post-deployment evaluation
-
-The project ensures that automation decisions are supported by data, not assumptions
+- Rising guest inquiries outpacing support capacity  
+- High SLA breach rate (>70%)  
+- Increasing response times impacting CSAT  
+- High cost per contact due to manual processes  
+- No clear framework to evaluate automation ROI  
 
 ---
-## Project Objective:
-Develop a data-driven operational baseline and measurement framework to justify and evaluate the Intelligent Travel Concierge initiative.
+## Approach
 
-Specific Objectives:
-- Quantify Time, Scale, and Cost inefficiencies
-- Identify automation-ready repetitive inquiries
-- Measure SLA reliability and service consistency
-- Model cost savings and revenue recovery potential
-- Design a pre/post performance evaluation structure
+- Analysed support ticket data across response time, SLA performance, and resolution rates  
+- Identified repetitive inquiry patterns and automation opportunities  
+- Quantified peak-hour demand impact on service delivery  
+- Built KPI baseline for pre/post automation comparison  
+- Developed an interactive Looker Studio dashboard for stakeholder decision-making  
+- Modelled operational and financial impact of automation  
+
+---
+## Key Insights
+- Guest satisfaction is primarily driven by response time, with sharp CSAT decline beyond 60 minutes.
+- Over 70% of tickets breach SLAs due to peak‑hour congestion and non‑scalable staffing models.
+- ~60% of guest inquiries are repetitive and automation‑ready, consuming disproportionate support capacity.
+- Manual workflows and ticket transfers reduce first‑contact resolution to 67.82% and increase cost per contact.
+- Automation presents a clear path to improve speed, reliability, and scalability without linear cost growth.
+
+---
+## Business Impact 
+- Improved Guest Satisfaction: Reduced response times by automating high‑volume, repetitive inquiries—directly addressing the primary driver of CSAT decline.
+- Lower SLA Breaches: Mitigated peak‑hour congestion and response delays, reducing SLA breach rates from >70% to <25%.
+- Cost Efficiency: Automated ~60% of repetitive support requests, lowering cost per contact and reducing overtime dependency.
+- Higher Resolution Rates: Improved first‑contact resolution by minimizing ticket transfers and standardizing responses.
+- Scalable Operations: Enabled a support model that scales with demand without linear increases in headcount or cost.
+
+---
+## Stakeholder Impact
+
+**Executive Leadership**
+- Enabled data-driven decision-making by quantifying automation ROI and operational inefficiencies  
+- Supported investment decisions for AI-driven support transformation  
+
+**Operations Teams**
+- Identified peak-hour bottlenecks, improving workforce planning and SLA performance  
+- Highlighted process inefficiencies, reducing ticket handling time  
+
+**Customer Experience Teams**
+- Established response time as the primary driver of CSAT  
+- Improved focus on first-contact resolution and service consistency  
+
+**Data & Product Teams**
+- Defined KPI framework for measuring automation success  
+- Enabled ongoing performance tracking through centralised dashboards  
+
+**Business Outcome**
+- Shifted operations from reactive support → scalable, data-driven model  
+- Positioned automation as both a cost-efficiency and growth enabler  
 
 ---
 ## Project Scope
@@ -59,12 +85,6 @@ Click below to interact with the dashboard
 
 ## Dataset
 [Find the dataset here](./Dataset/)
-## Key Insights
-- Guest satisfaction is primarily driven by response time, with sharp CSAT decline beyond 60 minutes.
-- Over 70% of tickets breach SLAs due to peak‑hour congestion and non‑scalable staffing models.
-- ~60% of guest inquiries are repetitive and automation‑ready, consuming disproportionate support capacity.
-- Manual workflows and ticket transfers reduce first‑contact resolution to 67.82% and increase cost per contact.
-- Automation presents a clear path to improve speed, reliability, and scalability without linear cost growth.
 
 ## Projected Operational Improvements Through Automation
 
@@ -75,16 +95,9 @@ Click below to interact with the dashboard
 |Repetitive Tickets  |   60%      |   ↓ <15%          |
 |Cost per Contact    |   High     |   ↓ Low           |
 
-## Business Impact 
-- Improved Guest Satisfaction: Reduced response times by automating high‑volume, repetitive inquiries—directly addressing the primary driver of CSAT decline.
-- Lower SLA Breaches: Mitigated peak‑hour congestion and response delays, reducing SLA breach rates from >70% to <25%.
-- Cost Efficiency: Automated ~60% of repetitive support requests, lowering cost per contact and reducing overtime dependency.
-- Higher Resolution Rates: Improved first‑contact resolution by minimizing ticket transfers and standardizing responses.
-- Scalable Operations: Enabled a support model that scales with demand without linear increases in headcount or cost.
 
 ---
 ## Tech Stack
 - Data Storage & Cleaning: Google Sheets
-- Analysis: Google Sheets formulas and pivot tables
 - Visualization & Reporting: Looker Studio
 
